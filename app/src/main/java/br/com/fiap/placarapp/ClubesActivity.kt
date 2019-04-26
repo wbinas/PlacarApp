@@ -17,7 +17,7 @@ class ClubesActivity : AppCompatActivity() {
         }
     }
 
-    fun irParaOutraTela{
+    fun irParaOutraTela(){
         var proximaTela = Intent(this, PlacarActivity::class.java)
         proximaTela.putExtra("TIME_CASA", inputClubeCasa.value())
         proximaTela.putExtra("TIME_VISITANTE", inputClubVisitante.value())
